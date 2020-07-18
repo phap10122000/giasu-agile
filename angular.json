@@ -23,9 +23,23 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/bootstrap.css",
+              "src/assets/css/cm-overlay.css",
+              "src/assets/css/flexslider.css",
+              "src/assets/css/font-awesome.css",
+              "src/assets/css/jquery.fatNav.css",
+              "src/assets/css/lightbox.css",
+              "src/assets/css/style.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/bootstrap.js",
+              "src/assets/js/jquery-2.2.3.min.js",
+              "src/assets/js/jquery.fatNav.js",
+              "src/assets/js/jquery.flexslider.js",
+              "src/assets/js/lightbox-plus-jquery.min.js",
+              "src/assets/js/modernizr-2.6.2.min.js"
+            ]
           },
           "configurations": {
             "production": {
