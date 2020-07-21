@@ -20,7 +20,8 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/webfonts"
             ],
             "styles": [             
               "src/assets/css/bootstrap.css",         
@@ -87,7 +88,14 @@
             "styles": [
               "styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "src/assets/js/bootstrap.js",
+              "src/assets/js/jquery-2.2.3.min.js",
+              "src/assets/js/jquery.fatNav.js",
+              "src/assets/js/jquery.flexslider.js",
+              "src/assets/js/lightbox-plus-jquery.min.js",
+              "src/assets/js/modernizr-2.6.2.min.js"
+            ],
             "assets": [
               "src/favicon.ico",
               "src/assets"
