@@ -22,13 +22,12 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-              "src/styles.css",
-              "src/assets/css/bootstrap.css",
+            "styles": [             
+              "src/assets/css/bootstrap.css",         
               "src/assets/css/cm-overlay.css",
               "src/assets/css/flexslider.css",
-              "src/assets/css/font-awesome.css",
               "src/assets/css/jquery.fatNav.css",
+              "src/assets/css/font-awesome.css",
               "src/assets/css/lightbox.css",
               "src/assets/css/style.css"
             ],
