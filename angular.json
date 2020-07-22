@@ -23,14 +23,17 @@
               "src/assets",
               "src/assets/webfonts"
             ],
-            "styles": [             
-              "src/assets/css/bootstrap.css",         
+            "styles": [          
+              "src/assets/admin/admin.css",
+              "src/assets/css/bootstrap.css",                      
               "src/assets/css/cm-overlay.css",
               "src/assets/css/flexslider.css",
-              "src/assets/css/jquery.fatNav.css",
+              "src/assets/css/jquery.fatNav.css",             
               "src/assets/css/font-awesome.css",
               "src/assets/css/lightbox.css",
               "src/assets/css/style.css"
+
+              
             ],
             "scripts": [
               "src/assets/js/bootstrap.js",
@@ -86,7 +89,7 @@
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
             "styles": [
-              "styles.css"
+              "src/assets/css/admin.css"
             ],
             "scripts": [
               "src/assets/js/bootstrap.js",
