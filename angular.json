@@ -24,16 +24,16 @@
               "src/assets/webfonts"
             ],
             "styles": [          
-              "src/assets/admin/admin.css",
+              "src/assets/css/admin.css",
               "src/assets/css/bootstrap.css",                      
               "src/assets/css/cm-overlay.css",
               "src/assets/css/flexslider.css",
               "src/assets/css/jquery.fatNav.css",             
-              "src/assets/css/font-awesome.css",
               "src/assets/css/lightbox.css",
               "src/assets/css/style.css",
-              "src/assets/css/signup.css"
-
+              "src/assets/css/signup.css",
+              "src/assets/css/font-awesome.css",
+              "src/assets/css/font-awesome.min.css"               
               
             ],
             "scripts": [
