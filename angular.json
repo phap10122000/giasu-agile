@@ -32,8 +32,7 @@
               "src/assets/css/lightbox.css",
               "src/assets/css/style.css",
               "src/assets/css/signup.css",
-              "src/assets/css/font-awesome.css",
-              "src/assets/css/font-awesome.min.css"               
+              "src/assets/css/font-awesome.css"           
               
             ],
             "scripts": [
