@@ -93,6 +93,7 @@ h6 {
 p {
   margin: 0;
   padding: 0;
+  
 }
 
 /* Section top bottom gap */
@@ -191,7 +192,7 @@ h3.global-title {
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-    color: #777777;
+    color: #fff;
     margin-top: 3px;
   }
 
@@ -304,5 +305,12 @@ h3.global-title {
       width: 100%;
     }
   }
+
+  .contact {
+    background: url("https://i.imgur.com/cqdsj28.jpg") 0px 0px no-repeat;
+    width: 100%;
+    background-size: cover;
+    font-family: "Abel-Regular";
+}
   /* / contact1-responsive */
   /* /contact1 */
