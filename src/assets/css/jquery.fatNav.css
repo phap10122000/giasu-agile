@@ -23,7 +23,7 @@
   display: block;
   width: 30px;
   height: 3px;
-  background-color: #0c0c0c;
+  background-color: #fff;
   -moz-transition-property: background-color, -moz-transform;
   -o-transition-property: background-color, -o-transform;
   -webkit-transition-property: background-color, -webkit-transform;

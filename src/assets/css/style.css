@@ -67,9 +67,14 @@ a:focus, a:hover {
 .logo a {
     font-size: 38px;
     font-weight: 600;
-    color: #000;
+    color: #fff;
     text-transform: uppercase;
 }
+  .w3-socials a{
+    font-size: 14px;
+    color: #fff;
+    
+  }
 .logo {
     float: left;
 }
@@ -128,6 +133,7 @@ a:focus, a:hover {
 /* //nav top */
 .nav-top {
     padding: 0 8em 0 3em;
+    background:  black;
 }
 .w3l-banner {
     background: url("https://i.imgur.com/AnA6Wwj.jpg") no-repeat 0px 0px;
@@ -1527,6 +1533,8 @@ h5.agile-title {
     font-size: 1.2em;
 }
 }
+
+
 
 
 /*-- //responsive design --*/
