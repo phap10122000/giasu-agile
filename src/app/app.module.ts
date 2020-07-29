@@ -15,10 +15,13 @@ import { ContactComponent } from './contact/contact.component';
 import { ServiceComponent } from './service/service.component';
 import { SliderComponent } from './slider/slider.component';
 import { NewsComponent } from './news/news.component';
+import { GiasuManagerComponent } from './admin/giasu-manager/giasu-manager.component';
+import { ProductService } from './product.service';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, AppRoutingModule ],
-  declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent, LoginComponent, AdminComponent, SignUpComponent, DashboardComponent, ContactComponent, ServiceComponent, SliderComponent, NewsComponent ],
-  bootstrap:    [ AppComponent ]
+  declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent, LoginComponent, AdminComponent, SignUpComponent, DashboardComponent, ContactComponent, ServiceComponent, SliderComponent, NewsComponent, GiasuManagerComponent ],
+  bootstrap:    [ AppComponent ],
+  providers: [ProductService]
 })
 export class AppModule { }
