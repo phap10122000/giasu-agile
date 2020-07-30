@@ -8,7 +8,8 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { DashboardComponent } from './admin/dashboard/dashboard.component';
 import { ContactComponent } from './contact/contact.component';
 import { ServiceComponent } from './service/service.component';
-import { NewsComponent } from './news/news.component';
+import { AdminManagerComponent } from './admin/admin-manager/admin-manager.component';
+
 
 
 const routes: Routes = [
@@ -17,14 +18,13 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent},
   { path: 'contact', component: ContactComponent},
   { path: 'service', component: ServiceComponent},
-  { path: 'news', component: NewsComponent},
   { path: 'login', component: LoginComponent},
   { path: 'signup', component: SignUpComponent},
   { path: 'admin', component: AdminComponent,
     children: [
         { path: '', redirectTo: 'dashboard', pathMatch: 'full'},
-        { path: 'dashboard', component: DashboardComponent},
-        { path: 'managar', component: DashboardComponent}
+        { path: 'dashboard', component: DashboardComponent},      
+        { path: 'manager', component: AdminManagerComponent}
     ]
   } 
 ];

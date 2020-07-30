@@ -13,15 +13,10 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { DashboardComponent } from './admin/dashboard/dashboard.component';
 import { ContactComponent } from './contact/contact.component';
 import { ServiceComponent } from './service/service.component';
-import { SliderComponent } from './slider/slider.component';
-import { NewsComponent } from './news/news.component';
-import { GiasuManagerComponent } from './admin/giasu-manager/giasu-manager.component';
-import { ProductService } from './product.service';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, AppRoutingModule ],
-  declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent, LoginComponent, AdminComponent, SignUpComponent, DashboardComponent, ContactComponent, ServiceComponent, SliderComponent, NewsComponent, GiasuManagerComponent ],
-  bootstrap:    [ AppComponent ],
-  providers: [ProductService]
+  declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent, LoginComponent, AdminComponent, SignUpComponent, DashboardComponent, ContactComponent, ServiceComponent ],
+  bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
