@@ -13,10 +13,11 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { DashboardComponent } from './admin/dashboard/dashboard.component';
 import { ContactComponent } from './contact/contact.component';
 import { ServiceComponent } from './service/service.component';
+import { NewsComponent } from './news/news.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule, AppRoutingModule ],
-  declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent, LoginComponent, AdminComponent, SignUpComponent, DashboardComponent, ContactComponent, ServiceComponent ],
+  declarations: [ AppComponent, HelloComponent, HomeComponent, AboutComponent, LoginComponent, AdminComponent, SignUpComponent, DashboardComponent, ContactComponent, ServiceComponent, NewsComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }

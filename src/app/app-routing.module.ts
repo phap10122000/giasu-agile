@@ -8,6 +8,7 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { DashboardComponent } from './admin/dashboard/dashboard.component';
 import { ContactComponent } from './contact/contact.component';
 import { ServiceComponent } from './service/service.component';
+import { NewsComponent } from './news/news.component';
 
 
 
@@ -19,7 +20,7 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent},
   { path: 'contact', component: ContactComponent},
   { path: 'service', component: ServiceComponent},
-  // { path: 'news', component: NewsComponent},
+  { path: 'news', component: NewsComponent},
   { path: 'login', component: LoginComponent},
   { path: 'signup', component: SignUpComponent},
   { path: 'admin', component: AdminComponent,
